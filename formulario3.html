@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demo de Tablas</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+ <div class="container">
+  <h1>Formulario Horizontal</h1>
+      <br/>
+  <form action="" class="form-horizontal">
+
+    <fieldset>
+      <div class="form-group has-success">
+      <label for="nombre"  class="control-label col-md-2" > Nombre: </label>
+        <div class="col-md-10">
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">  
+        </div>      
+      </div>
+ 
+      <div class="form-group has-warning">
+          <label for="nombre"  class="control-label col-md-2" > Nombre: </label>
+          <div class="col-md-10">
+            <p class="form-control-static">Tu amigo Guillermo</p> 
+          </div>
+      </div>
+ 
+      <div class="form-group has-error">
+        <label for="correo"  class="control-label col-md-2" > Correo: </label>
+        <div class=" col-md-10">
+          <input type="text" class="form-control" id="correo" placeholder="Correo" >  
+        </div>      
+      </div>
+
+      <div class="form-group">
+        <div class="checkbox col-md-2 col-md-offset-2">
+          <label>
+            <input type="checkbox" > Recuerdame
+          </label>      
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-2 col-md-offset-2">
+            <button class="btn btn-primary">Enviar</button>  
+        </div>
+      </div>
+    </fieldset>
+  </form> 
+  </div>
+ 
+<blockquote>
+  La Clase "col-md-" se pueden usar en formulario Gracias a la Clase "form-horizontal"
+</blockquote>
+
+<input type="text" class="form-control" id="desabilitado" placeholder="desabilitado" disabled>  
+
+<fieldset disabled>
+  Desabilitar todo un grupo
+
+<input type="text" class="form-control" id="nombre1" placeholder="Nombre">  
+<input type="text" class="form-control" id="nombre2" placeholder="Nombre">  
+</fieldset>
+ </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
